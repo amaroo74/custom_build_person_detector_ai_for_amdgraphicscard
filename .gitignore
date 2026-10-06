@@ -1,0 +1,17 @@
+@"
+venv/
+dataset/
+__pycache__/
+*.pyc
+*.pth
+*.pt
+*.onnx
+*.mp4
+*.avi
+*.jpg
+*.jpeg
+*.png
+*.zip
+.env
+.vscode/
+"@ | Set-Content .gitignore
